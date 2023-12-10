@@ -87,3 +87,8 @@ function toggleNegative() {
         display.value = currentNumber;
     }
 }
+
+function backspace() {
+    currentNumber = currentNumber.slice(0, -1);
+    display.value = currentNumber;
+}
